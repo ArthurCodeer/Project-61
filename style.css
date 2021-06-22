@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+}
+
+img {
+    width: 420px;
+}
+
+.menu {
+    top: 20px;
+    left: 5px;
+    position: absolute;
+    list-style: none;
+    cursor: pointer;
+}
+
+.menuoption {
+    float: left;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    font-size: 10xpx;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.menuoption:hover {
+    background-color: darkseagreen
+}
+.line{
+    background-color: black;
+        height: 8px;
+            width: 100px;
+    margin: 5px auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+#home{
+    background-color: aqua;
+}
+#games{
+   background-color: indianred;
+}
+#projects{
+   background-color: lightgreen;
+}
+#saftey{
+    background-color: yellow;
+}
+#inspiration{
+   background-color: orange;
+}
